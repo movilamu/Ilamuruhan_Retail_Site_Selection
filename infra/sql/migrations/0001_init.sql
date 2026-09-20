@@ -1,0 +1,3 @@
+-- Placeholder initial migration.
+-- No schema defined yet — tables for hex-level scores, sites, criteria
+-- hierarchy, and elicitation sessions will be added here per ADR-001/ADR-002.

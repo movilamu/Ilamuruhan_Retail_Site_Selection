@@ -1,0 +1,12 @@
+# Placeholder CI workflow — Next.js lint/build.
+name: ci-frontend
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: TODO
+        run: echo "Add npm install/lint/build steps for /frontend"

@@ -1,0 +1,13 @@
+# Placeholder CI workflow — Python lint/test across ingestion, scoring,
+# elicitation, sensitivity, api, analytics. No steps implemented yet.
+name: ci-python
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: TODO
+        run: echo "Add lint/test steps per Python subproject"
